@@ -10,7 +10,7 @@
 	<string>*&lt;#theErr#&gt; = [NSError errorWithDomain:&lt;#theDomain#&gt;
 	code:&lt;#code#&gt;
 	userInfo:[NSDictionary dictionaryWithObjectsAndKeys:
-		NSLocalizedDescriptionKey,   NSLocalizedString(@"&lt;#description here#&gt;", @""),
+		NSLocalizedString(@"&lt;#description here#&gt;", @""),	NSLocalizedDescriptionKey,
 		nil]];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4612A351-BFFF-4CDD-89DA-4CD1B0FFA814</string>

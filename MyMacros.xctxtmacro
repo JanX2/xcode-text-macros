@@ -545,7 +545,7 @@
         Name = "NSError: creation";
         IsMenuItem = YES;
         BasedOn = objc;
-        TextString = "*<#theErr#> = [NSError errorWithDomain:<#theDomain#>\n\tcode:<#code#>\n\tuserInfo:[NSDictionary dictionaryWithObjectsAndKeys:\n\t\tNSLocalizedDescriptionKey,   NSLocalizedString(@\"<#description here#>\", @\"\"),\n\t\tnil]];";
+        TextString = "*<#theErr#> = [NSError errorWithDomain:<#theDomain#>\n\tcode:<#code#>\n\tuserInfo:[NSDictionary dictionaryWithObjectsAndKeys:\n\t\tNSLocalizedString(@\"<#description here#>\", @\"\"),\tNSLocalizedDescriptionKey, \n\t\tnil]];";
     },
 )
 
